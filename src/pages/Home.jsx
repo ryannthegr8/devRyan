@@ -1,14 +1,6 @@
 import React, { useEffect } from "react";
 
-//Icons
-import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
-import { FaXTwitter, FaTiktok } from "react-icons/fa6";
-import { SiBuymeacoffee } from "react-icons/si";
-
-//3D object
-import Planet from "../components/canvas/Planet";
-
-//Pages
+//Pages and images
 import {
   About,
   Portfolio,
