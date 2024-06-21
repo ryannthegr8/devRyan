@@ -31,85 +31,6 @@ function Home() {
   });
   return (
     <>
-      {/* <div id="site-container">
-        <section id="home">
-          <div className="hero-left ">
-            <h3 className="hero-text">Bienvenue!</h3>
-            <h3 className="hero-text">I Am Ryan I. Mmbale</h3>
-            <h1 className="hero-text" id="purpleItem">
-              Fullstack Software Engineer | JS{" "}
-            </h1>
-            <p className="tagline">
-              I Craft Software, For Diverse Clients, Prioritizing Originality
-              With Precision, Flair and Finesse.
-            </p>
-
-            <ul className="socials">
-              <li>
-                <a href="https://github.com/ryannthegr8" data-tooltip="GitHub">
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/_ryan.im/"
-                  data-tooltip="Instagram"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/ryan-mmbale-392220216/"
-                  data-tooltip="Linked In"
-                >
-                  <AiFillLinkedin />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/coderRyan_m"
-                  data-tooltip="Twitter"
-                >
-                  <FaXTwitter />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.buymeacoffee.com/mmbaleryan1"
-                  data-tooltip="BuyMeCoffee"
-                >
-                  <SiBuymeacoffee />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.tiktok.com/@ryann_me"
-                  data-tooltip="TikTok"
-                >
-                  <FaTiktok />
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="hero-right">Planet section here </div>
-        </section>
-        <section id="about">
-          <About />
-        </section>
-        <section id="portfolio">
-          <Portfolio />
-        </section>
-        <section id="services">
-          <Services />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
-      </div> */}
-
-      {/* New design */}
       <body class="bg-slate-900">
         <div>
           <div class="fixed top-0 -z-10">
@@ -155,10 +76,10 @@ function Home() {
                       data-aos-duration="1000"
                     >
                       <span class="py-1 px-3 rounded-md text-sm font-medium uppercase tracking-wider text-primary bg-primary/20">
-                        MEET YOUR CO-PILOT
+                        Fullstack Engineer
                       </span>
                       <h1 class="md:text-5xl/tight text-4xl font-medium text-white max-w-lg my-4">
-                        Image generate with our ai instantly.
+                        RYAN MMBALE.
                       </h1>
                       <p class="md:text-lg text-default-300">
                         Get AI generated images from text straight from your{" "}

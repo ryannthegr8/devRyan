@@ -1,23 +1,6 @@
 import React from "react";
 
-import {
-  BiLogoJavascript,
-  BiLogoHtml5,
-  BiLogoCss3,
-  BiLogoReact,
-  BiLogoMongodb,
-  BiLogoJava,
-  BiLogoPython,
-  BiLogoGithub,
-} from "react-icons/bi";
-import { GrAndroid } from "react-icons/gr";
-import { FaLocationDot } from "react-icons/fa6";
-import { AiOutlineConsoleSql } from "react-icons/ai";
-
 import Me from "../assets/me.jpeg";
-
-//3D object
-// import PurpleDiamond from "../components/canvas/PurpleDiamond";
 
 function About() {
   return (
@@ -44,43 +27,6 @@ function About() {
             evolving, I seek not just to code but to craft elegant, efficient,
             and user-centric software, to contribute impactful, forward-looking
             solutions in the ever-evolving tech landscape.
-            <p id="purpleItem">
-              <FaLocationDot /> Nairobi, Kenya - Remote
-            </p>
-          </div>
-          <h2 className="head-skills">Major TechStack</h2>
-          <div className="mySkills">
-            <div className="skill">
-              <BiLogoJavascript /> JavaScript
-            </div>
-            <div className="skill">
-              <BiLogoHtml5 /> HTML
-            </div>
-            <div className="skill">
-              <BiLogoCss3 /> CSS
-            </div>
-            <div className="skill">
-              <BiLogoReact /> React
-            </div>
-            <div className="skill">
-              <BiLogoMongodb /> MongoDB
-            </div>
-            <div className="skill">
-              <GrAndroid /> Android
-            </div>
-            <div className="skill">
-              <BiLogoJava /> Java
-            </div>
-            <div className="skill">
-              <BiLogoPython /> Python
-            </div>
-            <div className="skill">
-              <AiOutlineConsoleSql />
-              SQL
-            </div>
-            <div className="skill">
-              <BiLogoGithub /> GitHub
-            </div>
           </div>
         </div>
       </section>

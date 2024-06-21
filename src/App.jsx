@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <ThemeToggle />
         <main>
           <Routes>
             <Route index exact path="/" element={<Home />} />
