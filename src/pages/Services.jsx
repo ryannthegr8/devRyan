@@ -1,0 +1,433 @@
+import React, { useEffect } from "react";
+
+import Me from "../assets/me.jpeg";
+//Components
+import { Nav, Footer } from "../components";
+
+//Pages and images
+import {
+  imageA,
+  imageB,
+  imageC,
+  imageD,
+  imageE,
+  imageF,
+  imageG,
+  imageH,
+  imageK,
+  imageI,
+  imageJ,
+  imageL,
+  imageM,
+  imageN,
+  imageO,
+  imageP,
+  imageQ,
+} from "../pages";
+
+import aos from "aos";
+import "aos/dist/aos.css";
+
+function Services() {
+  useEffect(() => {
+    aos.init();
+  });
+  return (
+    <>
+      <body class="bg-slate-900">
+        <div>
+          <div class="fixed top-0 -z-10">
+            <div class="blur-[200px] w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] rounded-full bg-gradient-to-tl from-red-600/40 to-pink-600/40"></div>
+          </div>
+          <div class="fixed top-0 end-0 -z-10">
+            <div class="blur-[200px] w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] rounded-full bg-gradient-to-tl from-red-600/40 to-pink-600/40"></div>
+          </div>
+          <div class="fixed inset-0 hidden lg:flex items-center justify-center -z-10">
+            <div class="blur-[200px] w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] rounded-full bg-gradient-to-tl from-red-600/40 to-pink-600/40"></div>
+          </div>
+          <div class="fixed bottom-0 start-0 -z-10">
+            <div class="blur-[200px] w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] rounded-full bg-gradient-to-tl from-red-600/40 to-pink-600/40"></div>
+          </div>
+          <div class="fixed bottom-0 end-0 -z-10">
+            <div class="blur-[200px] w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] rounded-full bg-gradient-to-tl from-red-600/40 to-pink-600/40"></div>
+          </div>
+        </div>
+        {/* <!-- end body bg gradient --> */}
+
+        {/* <!-- Navbar Start --> */}
+        <header id="navbar-sticky" class="navbar">
+          <div class="container">
+            <Nav />
+          </div>
+        </header>
+        {/* <!-- Navbar End --> */}
+
+        {/* <!-- Hero Section Start --> */}
+        <section
+          id="home"
+          class="relative overflow-hidden pt-40 pb-20"
+          data-aos="zoom-out"
+          data-aos-easing="ease"
+          data-aos-duration="1000"
+        >
+          <div class="absolute h-14 w-14 bg-primary/10 top-1/2 start-80 -z-1 rounded-2xl rounded-tl-none rounded-br-none animate-[spin_10s_linear_infinite]"></div>
+          <div class="absolute h-14 w-14 bg-primary/20 top-1/2 end-80 -z-1 rounded-full animate-ping"></div>
+          <div class="container">
+            <div class="text-center">
+              <div class="flex justify-center mt-6">
+                <div class="max-w-2xl">
+                  <h1 class="text-5xl/tight text-default-100 font-medium mb-6">
+                    My services.
+                  </h1>
+                  <p class="text-base text-default-300 font-medium lg:max-w-md mx-auto">
+                    Craft your vision with me.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- Container End --> */}
+        </section>
+        {/* <!-- Hero end  --> */}
+
+        <section id="ai_made" class="pb-24">
+          <div class="container">
+            <div class="grid md:grid-cols-2 gap-6 items-center">
+              <div
+                class="relative"
+                data-aos="fade-right"
+                data-aos-easing="ease"
+                data-aos-duration="1000"
+              >
+                <img src={imageM} class="rounded-xl" alt="" />
+                <div class="absolute inset-0 bg-default-950/50 rounded-xl"></div>
+                <div class="hidden lg:block">
+                  <div class="absolute top-10 -end-52">
+                    <div class="inline-block">
+                      <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
+                        <div class="max-w-sm text-center p-6">
+                          <p class="text-base font-small text-default-300">
+                            Gods plan is like a beautiful tapestry, the tragedy
+                            of being human is we only get to see it from the
+                            back
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="absolute top-auto bottom-20 -start-20">
+                    <div class="inline-block">
+                      <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
+                        <div class="py-4 px-6">
+                          <h5>Ryan MMbale</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <!-- end grid-col --> */}
+
+              <div
+                data-aos="fade-left"
+                data-aos-easing="ease"
+                data-aos-duration="1000"
+              >
+                <div class="max-w-md text-end ms-auto">
+                  <span class="py-1 px-3 rounded-md text-sm font-medium uppercase tracking-wider text-primary bg-primary/10">
+                    PROFESSIONALLY
+                  </span>
+                  <h2 class="text-3xl font-medium capitalize text-default-200 mt-4">
+                    Unique Images means no copyright issues
+                  </h2>
+                  <p class="text-base font-medium text-default-300 mt-5 mb-8">
+                    The image is original and not copied or borrowed from
+                    someone else's work, which ensures that there are no legal
+                    restrictions on its use or distribution.
+                  </p>
+                  <a
+                    href="#"
+                    class="inline-flex items-center justify-center gap-2 border border-white/10 text-white py-2 px-6 rounded-full bg-primary hover:bg-primary-hover transition-all duration-300"
+                  >
+                    Read More
+                    <i data-lucide="move-right" class="h-5 w-5"></i>
+                  </a>
+                </div>
+              </div>
+              {/* <!-- end grid-col --> */}
+            </div>
+            {/* <!-- end grid --> */}
+
+            <div class="grid md:grid-cols-2 gap-6 items-center mt-12">
+              <div
+                data-aos="fade-right"
+                data-aos-easing="ease"
+                data-aos-duration="1000"
+              >
+                <div class="max-w-md p-3">
+                  <span class="py-1 px-3 rounded-md text-sm font-medium uppercase tracking-wider text-primary bg-primary/10">
+                    PERSONALITY
+                  </span>
+                  <h2 class="text-3xl font-medium capitalize text-default-200 mt-4">
+                    Create images your custom AI mode
+                  </h2>
+                  <p class="text-base font-medium text-default-300 mt-5 mb-8">
+                    Every element in this image, from the smallest brushstroke
+                    to the grandest panorama, is a product of AI's creative
+                    prowess.
+                  </p>
+                </div>
+              </div>
+              {/* <!-- ebd grid-cols --> */}
+
+              <div
+                class="relative"
+                data-aos="fade-left"
+                data-aos-easing="ease"
+                data-aos-duration="1000"
+              >
+                <img src={imageN} class="rounded-xl" alt="" />
+                <div class="absolute inset-0 bg-default-950/50 rounded-xl"></div>
+                <div class="hidden lg:block">
+                  <div class="absolute top-10 -start-52">
+                    <div class="inline-block">
+                      <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
+                        <div class="max-w-sm text-center p-6">
+                          <p class="text-base font-medium text-default-300">
+                            The image is original and not copied or borrowed
+                            from someone else's work
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="absolute top-auto bottom-20 -end-20">
+                    <div class="inline-block">
+                      <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
+                        <div class="py-4 px-6">
+                          <h5>Software Developer</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <!-- ebd grid-cols --> */}
+            </div>
+            {/* <!-- end grid --> */}
+          </div>
+          {/* <!-- end container --> */}
+        </section>
+
+        {/* More about */}
+        <section id="home" class="relative pt-[74px] overflow-hidden">
+          <div class="container-fluid lg:px-10 md:px-3 relative overflow-hidden">
+            <div class="lg:py-24 py-[74px] md:rounded-lg shadow bg-default-950/40 backdrop-blur-3xl">
+              <div class="container relative">
+                <div class="absolute top-0">
+                  <i
+                    data-lucide="badge"
+                    class="animate-[spin_10s_linear_infinite] h-12 w-12 fill-primary/20 text-transparent"
+                  ></i>
+                </div>
+                <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
+                  <div
+                    class="md:col-span-7"
+                    data-aos="fade-right"
+                    data-aos-easing="ease"
+                    data-aos-duration="1000"
+                  >
+                    <div class="md:me-6">
+                      <div class="lg:col-span-6 col-span-2">
+                        <div class="bg-primary/20 rounded-xl">
+                          <div class="p-10">
+                            <h5 class="text-xl text-white mb-4">
+                              <b>Reach Out About Anything</b>
+                            </h5>
+                            <form class="space-y-2 mb-6">
+                              <label for="name" class="text-base text-white">
+                                Name:
+                              </label>
+                              <div class="relative">
+                                <input
+                                  type="text"
+                                  id="name"
+                                  class="py-4 ps-4 pe-40 w-full h-12 text-white rounded-lg bg-default-950/60 backdrop-blur-3xl border-white/10 focus:ring-0 focus:border-white/10"
+                                  placeholder="Enter Your name"
+                                  name="name"
+                                  required
+                                />
+                              </div>
+                              <label for="email" class="text-base text-white">
+                                Email:
+                              </label>
+                              <div class="relative">
+                                <input
+                                  type="email"
+                                  id="email"
+                                  class="py-4 ps-4 pe-40 w-full h-12 text-white rounded-lg bg-default-950/60 backdrop-blur-3xl border-white/10 focus:ring-0 focus:border-white/10"
+                                  placeholder="Enter Your Email"
+                                  name="email"
+                                  required
+                                />
+                              </div>
+                              <label for="phone" class="text-base text-white">
+                                Phone:
+                              </label>
+                              <div class="relative">
+                                <input
+                                  type="tel"
+                                  id="phone"
+                                  class="py-4 ps-4 pe-40 w-full h-12 text-white rounded-lg bg-default-950/60 backdrop-blur-3xl border-white/10 focus:ring-0 focus:border-white/10"
+                                  placeholder="Your Phone Number"
+                                  name="phone"
+                                  required
+                                />
+                              </div>
+                              <label for="message" class="text-base text-white">
+                                Message:
+                              </label>
+                              <div class="relative">
+                                <input
+                                  type="text"
+                                  id="message"
+                                  class="py-4 ps-4 pe-40 w-full h-12 text-white rounded-lg bg-default-950/60 backdrop-blur-3xl border-white/10 focus:ring-0 focus:border-white/10"
+                                  placeholder="Your Message"
+                                  name="message"
+                                  required
+                                  span="2"
+                                />
+                                <button
+                                  type="submit"
+                                  class="inline-flex items-center justify-center gap-2 px-6 absolute top-[6px] end-[6px] h-9 transition-all bg-primary hover:bg-primary-hover border-primary hover:border-primary-hover text-white rounded-md"
+                                >
+                                  Send Message
+                                  <i
+                                    data-lucide="move-right"
+                                    class="h-4 w-4"
+                                  ></i>
+                                </button>
+                              </div>
+                            </form>
+                            <div>
+                              <h6 class="text-base text-white mb-4">
+                                Follow ME :
+                              </h6>
+                              <ul class="flex flex-wrap items-center gap-1">
+                                <li>
+                                  <a
+                                    href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-white/10 rounded-lg transition-all duration-500 group hover:bg-primary"
+                                  >
+                                    <i
+                                      data-lucide="facebook"
+                                      class="h-5 w-5 text-default-300 group-hover:text-white"
+                                    ></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a
+                                    href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-white/10 rounded-lg transition-all duration-500 group hover:bg-primary"
+                                  >
+                                    <i
+                                      data-lucide="instagram"
+                                      class="h-5 w-5 text-default-300 group-hover:text-white"
+                                    ></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a
+                                    href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-white/10 rounded-lg transition-all duration-500 group hover:bg-primary"
+                                  >
+                                    <i
+                                      data-lucide="twitter"
+                                      class="h-5 w-5 text-default-300 group-hover:text-white"
+                                    ></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a
+                                    href="javascript:void(0);"
+                                    class="h-10 w-10 inline-flex items-center justify-center border border-white/10 rounded-lg transition-all duration-500 group hover:bg-primary"
+                                  >
+                                    <i
+                                      data-lucide="linkedin"
+                                      class="h-5 w-5 text-default-300 group-hover:text-white"
+                                    ></i>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="md:col-span-5"
+                    data-aos="fade-left"
+                    data-aos-easing="ease"
+                    data-aos-duration="1000"
+                  >
+                    <div class="flex gap-4 md:gap-6 tilt">
+                      <div class="flex flex-col gap-4 md:gap-6 pt-10 md:pt-16 w-full">
+                        <img
+                          src={Me}
+                          class="w-full h-40 md:h-[278px] rounded-lg object-cover"
+                          alt=""
+                        />
+                        <img
+                          src={imageO}
+                          class="w-full h-40 md:h-[278px] rounded-lg object-cover"
+                          alt=""
+                        />
+                      </div>
+                      <div class="flex flex-col gap-4 md:gap-6 pb-10 md:pb-16 w-full relative">
+                        <div class="absolute bottom-0 end-0 -z-10">
+                          <i
+                            data-lucide="triangle"
+                            class="animate-[spin_10s_linear_infinite] h-12 w-12 fill-primary/20 text-transparent"
+                          ></i>
+                        </div>
+                        <img
+                          src={imageP}
+                          class="w-full h-40 md:h-[278px] rounded-lg object-cover"
+                          alt=""
+                        />
+                        <img
+                          src={imageL}
+                          class="w-full h-40 md:h-[278px] rounded-lg object-cover"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* <!-- Footer section start --> */}
+        <Footer />
+        {/* <!-- Footer section End --> */}
+
+        {/* <!-- Back To Top Start --> */}
+        <button
+          id="back-to-top"
+          onclick="topFunction()"
+          class="fixed text-xl rounded-full z-10 bottom-5 end-5 h-8 w-8 text-center bg-white backdrop-blur-3xl text-slate-950 flex justify-center items-center transition-all duration-500 hover:bg-primary hover:text-white hover:rounded-lg"
+        >
+          <i data-lucide="chevron-up" class="h-4 w-4"></i>
+        </button>
+        {/* <!-- Back To Top End --> */}
+      </body>
+      {/* End of New design */}
+    </>
+  );
+}
+
+export default Services;
