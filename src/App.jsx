@@ -4,7 +4,7 @@ import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import "./style/style.css";
 import "./style/icons.css";
 
-// PreLine collapse
+// Scripts
 import "./assets/js/preline";
 
 //Pages

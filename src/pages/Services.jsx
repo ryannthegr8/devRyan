@@ -25,6 +25,8 @@ import {
   imageQ,
 } from "../pages";
 
+import { TbEyePlus, TbBulb } from "react-icons/tb";
+
 import aos from "aos";
 import "aos/dist/aos.css";
 
@@ -90,319 +92,188 @@ function Services() {
         </section>
         {/* <!-- Hero end  --> */}
 
-        <section id="ai_made" class="pb-24">
+        {/* Page content */}
+        <section id="faq" class="pb-24">
           <div class="container">
-            <div class="grid md:grid-cols-2 gap-6 items-center">
+            <div class="grid lg:grid-cols-2 gap-6">
               <div
-                class="relative"
+                class="hs-accordion-group space-y-4"
                 data-aos="fade-right"
                 data-aos-easing="ease"
                 data-aos-duration="1000"
               >
-                <img src={imageM} class="rounded-xl" alt="" />
-                <div class="absolute inset-0 bg-default-950/50 rounded-xl"></div>
-                <div class="hidden lg:block">
-                  <div class="absolute top-10 -end-52">
-                    <div class="inline-block">
-                      <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
-                        <div class="max-w-sm text-center p-6">
-                          <p class="text-base font-small text-default-300">
-                            Gods plan is like a beautiful tapestry, the tragedy
-                            of being human is we only get to see it from the
-                            back
-                          </p>
-                        </div>
-                      </div>
+                <div
+                  class="hs-accordion border border-white/10 bg-default-950/40 backdrop-blur-3xl rounded-lg overflow-hidden"
+                  id="faq-2"
+                >
+                  <button
+                    class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-white transition-all active"
+                    aria-controls="faq-2"
+                  >
+                    <h5 class="text-base font-semibold flex">
+                      <TbBulb size={20} /> Custom Software Development
+                    </h5>
+                    <TbEyePlus size={20} />
+                  </button>
+                  <div
+                    id="faq-2"
+                    class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                    aria-labelledby="faq-2"
+                  >
+                    <div class="px-6 pb-4 pt-0">
+                      <p class="text-default-300 text-sm font-medium">
+                        Craft bespoke software solutions for businesses,
+                        integrating them seamlessly with existing systems.
+                      </p>
                     </div>
                   </div>
-                  <div class="absolute top-auto bottom-20 -start-20">
-                    <div class="inline-block">
-                      <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
-                        <div class="py-4 px-6">
-                          <h5>Ryan MMbale</h5>
-                        </div>
-                      </div>
+                </div>
+
+                <div
+                  class="hs-accordion border border-white/10 bg-default-950/40 backdrop-blur-3xl rounded-lg overflow-hidden"
+                  id="faq-3"
+                >
+                  <button
+                    class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-white transition-all"
+                    aria-controls="faq-3"
+                  >
+                    <h5 class="text-base font-semibold flex">
+                      <TbBulb size={20} /> Mobile App Development
+                    </h5>
+                    <TbEyePlus size={20} />
+                  </button>
+                  <div
+                    id="faq-3"
+                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                    aria-labelledby="faq-3"
+                  >
+                    <div class="px-6 pb-4 pt-0">
+                      <p class="text-default-300 text-sm font-medium">
+                        Designing and developing software applications
+                        specifically for smartphones and tablets.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="hs-accordion border border-white/10 bg-default-950/40 backdrop-blur-3xl rounded-lg overflow-hidden"
+                  id="faq-1"
+                >
+                  <button
+                    class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-white transition-all"
+                    aria-controls="faq-accordion-1"
+                  >
+                    <h5 class="text-base font-semibold flex">
+                      <TbBulb size={20} />
+                      Web App Development
+                    </h5>
+                    <TbEyePlus size={20} />
+                  </button>
+                  <div
+                    id="faq-accordion-1"
+                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                    aria-labelledby="faq-1"
+                  >
+                    <div class="px-6 pb-4 pt-0">
+                      <p class="text-default-300 text-sm font-medium">
+                        Creating interactive web applications that run on a
+                        server and can be accessed by users through a web
+                        browser.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
-              {/* <!-- end grid-col --> */}
 
               <div
+                class="hs-accordion-group space-y-4"
                 data-aos="fade-left"
                 data-aos-easing="ease"
                 data-aos-duration="1000"
               >
-                <div class="max-w-md text-end ms-auto">
-                  <span class="py-1 px-3 rounded-md text-sm font-medium uppercase tracking-wider text-primary bg-primary/10">
-                    PROFESSIONALLY
-                  </span>
-                  <h2 class="text-3xl font-medium capitalize text-default-200 mt-4">
-                    Unique Images means no copyright issues
-                  </h2>
-                  <p class="text-base font-medium text-default-300 mt-5 mb-8">
-                    The image is original and not copied or borrowed from
-                    someone else's work, which ensures that there are no legal
-                    restrictions on its use or distribution.
-                  </p>
-                  <a
-                    href="#"
-                    class="inline-flex items-center justify-center gap-2 border border-white/10 text-white py-2 px-6 rounded-full bg-primary hover:bg-primary-hover transition-all duration-300"
+                <div
+                  class="hs-accordion border border-white/10 bg-default-950/40 backdrop-blur-3xl rounded-lg overflow-hidden"
+                  id="faq-2"
+                >
+                  <button
+                    class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-white transition-all"
+                    aria-controls="faq-2"
                   >
-                    Read More
-                    <i data-lucide="move-right" class="h-5 w-5"></i>
-                  </a>
-                </div>
-              </div>
-              {/* <!-- end grid-col --> */}
-            </div>
-            {/* <!-- end grid --> */}
-
-            <div class="grid md:grid-cols-2 gap-6 items-center mt-12">
-              <div
-                data-aos="fade-right"
-                data-aos-easing="ease"
-                data-aos-duration="1000"
-              >
-                <div class="max-w-md p-3">
-                  <span class="py-1 px-3 rounded-md text-sm font-medium uppercase tracking-wider text-primary bg-primary/10">
-                    PERSONALITY
-                  </span>
-                  <h2 class="text-3xl font-medium capitalize text-default-200 mt-4">
-                    Create images your custom AI mode
-                  </h2>
-                  <p class="text-base font-medium text-default-300 mt-5 mb-8">
-                    Every element in this image, from the smallest brushstroke
-                    to the grandest panorama, is a product of AI's creative
-                    prowess.
-                  </p>
-                </div>
-              </div>
-              {/* <!-- ebd grid-cols --> */}
-
-              <div
-                class="relative"
-                data-aos="fade-left"
-                data-aos-easing="ease"
-                data-aos-duration="1000"
-              >
-                <img src={imageN} class="rounded-xl" alt="" />
-                <div class="absolute inset-0 bg-default-950/50 rounded-xl"></div>
-                <div class="hidden lg:block">
-                  <div class="absolute top-10 -start-52">
-                    <div class="inline-block">
-                      <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
-                        <div class="max-w-sm text-center p-6">
-                          <p class="text-base font-medium text-default-300">
-                            The image is original and not copied or borrowed
-                            from someone else's work
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="absolute top-auto bottom-20 -end-20">
-                    <div class="inline-block">
-                      <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
-                        <div class="py-4 px-6">
-                          <h5>Software Developer</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* <!-- ebd grid-cols --> */}
-            </div>
-            {/* <!-- end grid --> */}
-          </div>
-          {/* <!-- end container --> */}
-        </section>
-
-        {/* More about */}
-        <section id="home" class="relative pt-[74px] overflow-hidden">
-          <div class="container-fluid lg:px-10 md:px-3 relative overflow-hidden">
-            <div class="lg:py-24 py-[74px] md:rounded-lg shadow bg-default-950/40 backdrop-blur-3xl">
-              <div class="container relative">
-                <div class="absolute top-0">
-                  <i
-                    data-lucide="badge"
-                    class="animate-[spin_10s_linear_infinite] h-12 w-12 fill-primary/20 text-transparent"
-                  ></i>
-                </div>
-                <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
+                    <h5 class="text-base font-semibold flex">
+                      <TbBulb size={20} />
+                      Software Testing and Quality Assurance
+                    </h5>
+                    <TbEyePlus size={20} />
+                  </button>
                   <div
-                    class="md:col-span-7"
-                    data-aos="fade-right"
-                    data-aos-easing="ease"
-                    data-aos-duration="1000"
+                    id="faq-2"
+                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                    aria-labelledby="faq-2"
                   >
-                    <div class="md:me-6">
-                      <div class="lg:col-span-6 col-span-2">
-                        <div class="bg-primary/20 rounded-xl">
-                          <div class="p-10">
-                            <h5 class="text-xl text-white mb-4">
-                              <b>Reach Out About Anything</b>
-                            </h5>
-                            <form class="space-y-2 mb-6">
-                              <label for="name" class="text-base text-white">
-                                Name:
-                              </label>
-                              <div class="relative">
-                                <input
-                                  type="text"
-                                  id="name"
-                                  class="py-4 ps-4 pe-40 w-full h-12 text-white rounded-lg bg-default-950/60 backdrop-blur-3xl border-white/10 focus:ring-0 focus:border-white/10"
-                                  placeholder="Enter Your name"
-                                  name="name"
-                                  required
-                                />
-                              </div>
-                              <label for="email" class="text-base text-white">
-                                Email:
-                              </label>
-                              <div class="relative">
-                                <input
-                                  type="email"
-                                  id="email"
-                                  class="py-4 ps-4 pe-40 w-full h-12 text-white rounded-lg bg-default-950/60 backdrop-blur-3xl border-white/10 focus:ring-0 focus:border-white/10"
-                                  placeholder="Enter Your Email"
-                                  name="email"
-                                  required
-                                />
-                              </div>
-                              <label for="phone" class="text-base text-white">
-                                Phone:
-                              </label>
-                              <div class="relative">
-                                <input
-                                  type="tel"
-                                  id="phone"
-                                  class="py-4 ps-4 pe-40 w-full h-12 text-white rounded-lg bg-default-950/60 backdrop-blur-3xl border-white/10 focus:ring-0 focus:border-white/10"
-                                  placeholder="Your Phone Number"
-                                  name="phone"
-                                  required
-                                />
-                              </div>
-                              <label for="message" class="text-base text-white">
-                                Message:
-                              </label>
-                              <div class="relative">
-                                <input
-                                  type="text"
-                                  id="message"
-                                  class="py-4 ps-4 pe-40 w-full h-12 text-white rounded-lg bg-default-950/60 backdrop-blur-3xl border-white/10 focus:ring-0 focus:border-white/10"
-                                  placeholder="Your Message"
-                                  name="message"
-                                  required
-                                  span="2"
-                                />
-                                <button
-                                  type="submit"
-                                  class="inline-flex items-center justify-center gap-2 px-6 absolute top-[6px] end-[6px] h-9 transition-all bg-primary hover:bg-primary-hover border-primary hover:border-primary-hover text-white rounded-md"
-                                >
-                                  Send Message
-                                  <i
-                                    data-lucide="move-right"
-                                    class="h-4 w-4"
-                                  ></i>
-                                </button>
-                              </div>
-                            </form>
-                            <div>
-                              <h6 class="text-base text-white mb-4">
-                                Follow ME :
-                              </h6>
-                              <ul class="flex flex-wrap items-center gap-1">
-                                <li>
-                                  <a
-                                    href="javascript:void(0);"
-                                    class="h-10 w-10 inline-flex items-center justify-center border border-white/10 rounded-lg transition-all duration-500 group hover:bg-primary"
-                                  >
-                                    <i
-                                      data-lucide="facebook"
-                                      class="h-5 w-5 text-default-300 group-hover:text-white"
-                                    ></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a
-                                    href="javascript:void(0);"
-                                    class="h-10 w-10 inline-flex items-center justify-center border border-white/10 rounded-lg transition-all duration-500 group hover:bg-primary"
-                                  >
-                                    <i
-                                      data-lucide="instagram"
-                                      class="h-5 w-5 text-default-300 group-hover:text-white"
-                                    ></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a
-                                    href="javascript:void(0);"
-                                    class="h-10 w-10 inline-flex items-center justify-center border border-white/10 rounded-lg transition-all duration-500 group hover:bg-primary"
-                                  >
-                                    <i
-                                      data-lucide="twitter"
-                                      class="h-5 w-5 text-default-300 group-hover:text-white"
-                                    ></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a
-                                    href="javascript:void(0);"
-                                    class="h-10 w-10 inline-flex items-center justify-center border border-white/10 rounded-lg transition-all duration-500 group hover:bg-primary"
-                                  >
-                                    <i
-                                      data-lucide="linkedin"
-                                      class="h-5 w-5 text-default-300 group-hover:text-white"
-                                    ></i>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                    <div class="px-6 pb-4 pt-0">
+                      <p class="text-default-300 text-sm font-medium">
+                        Ensuring software applications are functional, reliable,
+                        and meet user requirements through rigorous testing.
+                      </p>
                     </div>
                   </div>
+                </div>
 
-                  <div
-                    class="md:col-span-5"
-                    data-aos="fade-left"
-                    data-aos-easing="ease"
-                    data-aos-duration="1000"
+                <div
+                  class="hs-accordion border border-white/10 bg-default-950/40 backdrop-blur-3xl rounded-lg overflow-hidden"
+                  id="faq-3"
+                >
+                  <button
+                    class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-white transition-all"
+                    aria-controls="faq-3"
                   >
-                    <div class="flex gap-4 md:gap-6 tilt">
-                      <div class="flex flex-col gap-4 md:gap-6 pt-10 md:pt-16 w-full">
-                        <img
-                          src={Me}
-                          class="w-full h-40 md:h-[278px] rounded-lg object-cover"
-                          alt=""
-                        />
-                        <img
-                          src={imageO}
-                          class="w-full h-40 md:h-[278px] rounded-lg object-cover"
-                          alt=""
-                        />
-                      </div>
-                      <div class="flex flex-col gap-4 md:gap-6 pb-10 md:pb-16 w-full relative">
-                        <div class="absolute bottom-0 end-0 -z-10">
-                          <i
-                            data-lucide="triangle"
-                            class="animate-[spin_10s_linear_infinite] h-12 w-12 fill-primary/20 text-transparent"
-                          ></i>
-                        </div>
-                        <img
-                          src={imageP}
-                          class="w-full h-40 md:h-[278px] rounded-lg object-cover"
-                          alt=""
-                        />
-                        <img
-                          src={imageL}
-                          class="w-full h-40 md:h-[278px] rounded-lg object-cover"
-                          alt=""
-                        />
-                      </div>
+                    <h5 class="text-base font-semibold flex">
+                      <TbBulb size={20} />
+                      Database Management
+                    </h5>
+                    <TbEyePlus size={20} />
+                  </button>
+                  <div
+                    id="faq-3"
+                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                    aria-labelledby="faq-3"
+                  >
+                    <div class="px-6 pb-4 pt-0">
+                      <p class="text-default-300 text-sm font-medium">
+                        Design, develop, and maintain efficient databases to
+                        store and manage large amounts of data for various
+                        applications.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="hs-accordion border border-white/10 bg-default-950/40 backdrop-blur-3xl rounded-lg overflow-hidden active"
+                  id="faq-1"
+                >
+                  <button
+                    class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-white transition-all"
+                    aria-controls="faq-accordion-1"
+                  >
+                    <h5 class="text-base font-semibold flex">
+                      <TbBulb size={20} />
+                      UI/ UX Design
+                    </h5>
+                    <TbEyePlus size={20} />
+                  </button>
+                  <div
+                    id="faq-accordion-1"
+                    class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                    aria-labelledby="faq-1"
+                  >
+                    <div class="px-6 pb-4 pt-0">
+                      <p class="text-default-300 text-sm font-medium">
+                        Craft user-friendly interfaces and positive user
+                        experiences for software applications, ensuring ease of
+                        use and enjoyment.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -411,11 +282,10 @@ function Services() {
           </div>
         </section>
 
-        {/* <!-- Footer section start --> */}
+        {/* End of Page content */}
+
         <Footer />
-        {/* <!-- Footer section End --> */}
 
-        {/* <!-- Back To Top Start --> */}
         <button
           id="back-to-top"
           onclick="topFunction()"
