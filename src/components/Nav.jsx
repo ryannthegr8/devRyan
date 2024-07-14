@@ -2,14 +2,15 @@ import React from "react";
 import { useState } from "react";
 
 import { TbMenu2 } from "react-icons/tb";
+import { logo } from "../pages";
 
 function Nav() {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
       {/* <!-- Navbar Brand Logo --> */}
-      <a href="index-1.html" class="logo">
-        <img src="assets/images/logo.png" class="h-10" alt="Ryan Logo" />
+      <a href="/" class="logo">
+        <img src={logo} class="h-10" alt="Ryan Logo" />
       </a>
 
       {/* <!-- Mobile Menu Toggle Button (Offcanvas Button) --> */}
@@ -66,26 +67,6 @@ function Nav() {
             </a>
           </li>
         </ul>
-        {/* <!-- Download Button --> */}
-        <div class="lg:hidden flex items-center pt-4 mt-4 lg:pt-0 lg:mt-0 border-t border-white/10 lg:border-none">
-          <a
-            href="#"
-            class="inline-flex items-center justify-center gap-2 bg-primary text-white py-2 px-6 rounded-full hover:bg-primary-hover transition-all duration-3"
-          >
-            <i data-lucide="arrow-big-down-dash" class="h-5 w-5 me-2"></i>
-            Download
-          </a>
-        </div>
-      </div>
-      {/* <!-- Download Button --> */}
-      <div class="hidden lg:flex items-center">
-        <a
-          href="#"
-          class="inline-flex items-center justify-center gap-2 bg-primary text-white py-2 px-6 rounded-full hover:bg-primary-hover transition-all duration-300"
-        >
-          <i data-lucide="arrow-big-down-dash" class="h-5 w-5 me-2"></i>
-          Download
-        </a>
       </div>
     </nav>
   );

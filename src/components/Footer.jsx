@@ -14,7 +14,7 @@ function Footer() {
                 human is we only get to see it from the back.
               </p>
               <div class="mt-6">
-                <h6 class="text-base text-white mb-4">Follow US :</h6>
+                <h6 class="text-base text-white mb-4">Follow Me :</h6>
                 <ul class="flex flex-wrap items-center gap-1">
                   <li>
                     <a
@@ -59,11 +59,11 @@ function Footer() {
             <div>
               <ul class="flex flex-col gap-3">
                 <h5 class="xl:text-xl lg:text-lg font-medium text-default-200 mb-2">
-                  Company
+                  Pages
                 </h5>
                 <li>
                   <a
-                    href="javascript:void(0);"
+                    href="/#/about"
                     class="text-base font-normal text-slate-300 hover:text-primary transition-all"
                   >
                     About
@@ -71,26 +71,26 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0);"
-                    class="text-base font-normal text-slate-300 hover:text-primary transition-all"
-                  >
-                    Developers
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="javascript:void(0);"
-                    class="text-base font-normal text-slate-300 hover:text-primary transition-all"
-                  >
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="javascript:void(0);"
+                    href="/#/contact"
                     class="text-base font-normal text-slate-300 hover:text-primary transition-all"
                   >
                     Contact
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/#/portfolio"
+                    class="text-base font-normal text-slate-300 hover:text-primary transition-all"
+                  >
+                    Portfolio
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/#/services"
+                    class="text-base font-normal text-slate-300 hover:text-primary transition-all"
+                  >
+                    Services
                   </a>
                 </li>
               </ul>
@@ -103,34 +103,34 @@ function Footer() {
                 </h5>
                 <li>
                   <a
-                    href="javascript:void(0);"
+                    href="/#/services"
                     class="text-base font-normal text-slate-300 hover:text-primary transition-all"
                   >
-                    Developer Driven
+                    Web App Development
                   </a>
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0);"
+                    href="/#/services"
                     class="text-base font-normal text-slate-300 hover:text-primary transition-all"
                   >
-                    DMCA policy
+                    UI/ UX Designing
                   </a>
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0);"
+                    href="/#/services"
                     class="text-base font-normal text-slate-300 hover:text-primary transition-all"
                   >
-                    Private IPFS
+                    Database Management
                   </a>
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0);"
+                    href="/#/services"
                     class="text-base font-normal text-slate-300 hover:text-primary transition-all"
                   >
-                    News
+                    Mobile App Development
                   </a>
                 </li>
               </ul>

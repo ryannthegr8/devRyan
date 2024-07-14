@@ -23,6 +23,7 @@ import imageO from "../assets/images/ai/imgO.jpg";
 import imageP from "../assets/images/ai/imgP.jpg";
 import imageQ from "../assets/images/ai/imgQ.jpg";
 import linker from "../assets/images/portfolio/linker.png";
+import logo from "../assets/images/ryanLogo.png";
 
 export { Home, About, Contact, Services, Portfolio };
 
@@ -45,4 +46,5 @@ export {
   imageP,
   imageQ,
   linker,
+  logo,
 };

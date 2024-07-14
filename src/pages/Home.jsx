@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { TbArrowRightSquare, TbSettingsStar } from "react-icons/tb";
+import { FaLocationArrow } from "react-icons/fa";
 
 //Pages and images
 import {
@@ -235,7 +237,7 @@ function Home() {
             <div class="flex items-end justify-between mb-10">
               <div class="max-w-2xl mx-auto text-center">
                 <h2 class="text-3xl font-medium capitalize text-white mb-4">
-                  The AI Generator that helps you Create amazing image taster.
+                  My services
                 </h2>
               </div>
             </div>
@@ -254,18 +256,15 @@ function Home() {
                     class="h-10 w-10 text-primary mx-auto"
                   ></i>
                   <h2 class="text-2xl font-medium text-default-200 mt-4">
-                    Built for speed
+                    Custom Software Development
                   </h2>
-                  <p class="text-base font-normal text-default-300 mt-4">
-                    Generate up to 10 images in seconds. Our AI is super fast
-                    and flexible that can generate image for you in quick times
-                  </p>
+                  <p class="text-base font-normal text-default-300 mt-4"></p>
                   <a
-                    href="#"
+                    href="/#/services"
                     class="inline-flex gap-2 items-center relative text-primary group mt-5"
                   >
                     <span class="absolute h-px w-7/12 group-hover:w-full transition-all duration-500 rounded bg-primary/80 -bottom-0"></span>
-                    Lead more <i data-lucide="move-right" class="h-4 w-4"></i>
+                    Lead more <TbArrowRightSquare size={20} />
                   </a>
                 </div>
               </div>
@@ -283,18 +282,16 @@ function Home() {
                     class="h-10 w-10 text-primary mx-auto"
                   ></i>
                   <h2 class="text-2xl font-medium text-default-200 mt-4">
-                    10+ AI models
+                    Mobile Application Development
                   </h2>
-                  <p class="text-base font-normal text-default-300 mt-4">
-                    From Starble Diffusion to custom community styles. We have
-                    over 10+ AI models that will works better for you.
-                  </p>
+                  <p class="text-base font-normal text-default-300 mt-4"></p>
                   <a
-                    href="#"
+                    href="/#/services"
                     class="inline-flex gap-2 items-center relative text-primary group mt-5"
                   >
                     <span class="absolute h-px w-7/12 group-hover:w-full transition-all duration-500 rounded bg-primary/80 -bottom-0"></span>
-                    Lead more <i data-lucide="move-right" class="h-4 w-4"></i>
+                    Lead more
+                    <TbArrowRightSquare size={20} />
                   </a>
                 </div>
               </div>
@@ -312,18 +309,15 @@ function Home() {
                     class="h-10 w-10 text-primary mx-auto"
                   ></i>
                   <h2 class="text-2xl font-medium text-default-200 mt-4">
-                    Works for everything
+                    Software Testing and Quality Assurance
                   </h2>
-                  <p class="text-base font-normal text-default-300 mt-4">
-                    Generate up to 10 images in seconds. Our AI is super fast
-                    and flexible that can generate image for you in quick times
-                  </p>
+                  <p class="text-base font-normal text-default-300 mt-4"></p>
                   <a
-                    href="#"
+                    href="/#/services"
                     class="inline-flex gap-2 items-center relative text-primary group mt-5"
                   >
                     <span class="absolute h-px w-7/12 group-hover:w-full transition-all duration-500 rounded bg-primary/80 -bottom-0"></span>
-                    Lead more <i data-lucide="move-right" class="h-4 w-4"></i>
+                    Lead more <TbArrowRightSquare size={20} />
                   </a>
                 </div>
               </div>
@@ -335,6 +329,14 @@ function Home() {
         </section>
 
         <section id="ai_made" class="pb-24">
+          <div class="flex items-end justify-between mb-10">
+            <div class="max-w-2xl mx-auto text-center">
+              <h2 class="text-3xl font-medium capitalize text-white mb-4">
+                My Recent Projects
+              </h2>
+            </div>
+          </div>
+
           <div class="container">
             <div class="grid md:grid-cols-2 gap-6 items-center">
               <div
@@ -351,8 +353,7 @@ function Home() {
                       <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
                         <div class="max-w-sm text-center p-6">
                           <p class="text-base font-medium text-default-300">
-                            The image is original and not copied or borrowed
-                            from someone else's work
+                            With Great Power Comes Great Responsibility
                           </p>
                         </div>
                       </div>
@@ -362,7 +363,7 @@ function Home() {
                     <div class="inline-block">
                       <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
                         <div class="py-4 px-6">
-                          <h5>Detailed Work</h5>
+                          <h5>Highly Functional</h5>
                         </div>
                       </div>
                     </div>
@@ -378,22 +379,21 @@ function Home() {
               >
                 <div class="max-w-md text-end ms-auto">
                   <span class="py-1 px-3 rounded-md text-sm font-medium uppercase tracking-wider text-primary bg-primary/10">
-                    Unique Images
+                    Crescent Creatives
                   </span>
                   <h2 class="text-3xl font-medium capitalize text-default-200 mt-4">
-                    Unique Images means no copyright issues
+                    An Elegant Interior Design Website.
                   </h2>
                   <p class="text-base font-medium text-default-300 mt-5 mb-8">
-                    The image is original and not copied or borrowed from
-                    someone else's work, which ensures that there are no legal
-                    restrictions on its use or distribution.
+                    The website has features that enables clients to have a
+                    wonderful experience while interacting with the website.
                   </p>
                   <a
                     href="#"
                     class="inline-flex items-center justify-center gap-2 border border-white/10 text-white py-2 px-6 rounded-full bg-primary hover:bg-primary-hover transition-all duration-300"
                   >
-                    Read More
-                    <i data-lucide="move-right" class="h-5 w-5"></i>
+                    Live Preview
+                    <FaLocationArrow />
                   </a>
                 </div>
               </div>
@@ -409,22 +409,21 @@ function Home() {
               >
                 <div class="max-w-md p-3">
                   <span class="py-1 px-3 rounded-md text-sm font-medium uppercase tracking-wider text-primary bg-primary/10">
-                    custom Images
+                    Beira Travels
                   </span>
                   <h2 class="text-3xl font-medium capitalize text-default-200 mt-4">
-                    Create images your custom AI mode
+                    A Travel Agency Website.
                   </h2>
                   <p class="text-base font-medium text-default-300 mt-5 mb-8">
-                    Every element in this image, from the smallest brushstroke
-                    to the grandest panorama, is a product of AI's creative
-                    prowess.
+                    The site has features that enables clients to book fot the
+                    availed trips on the website.
                   </p>
                   <a
                     href="#"
                     class="inline-flex items-center justify-center gap-2 border border-white/10 text-white py-2 px-6 rounded-full bg-primary hover:bg-primary-hover transition-all duration-300"
                   >
-                    Read More
-                    <i data-lucide="move-right" class="h-5 w-5"></i>
+                    Live Preview
+                    <FaLocationArrow />
                   </a>
                 </div>
               </div>
@@ -444,8 +443,7 @@ function Home() {
                       <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
                         <div class="max-w-sm text-center p-6">
                           <p class="text-base font-medium text-default-300">
-                            The image is original and not copied or borrowed
-                            from someone else's work
+                            No One Cared Who I Was ‘Til I Put On The Mask.
                           </p>
                         </div>
                       </div>
@@ -475,11 +473,10 @@ function Home() {
             <div class="flex items-end justify-between mb-10">
               <div class="max-w-2xl mx-auto text-center">
                 <h2 class="text-3xl font-medium capitalize text-white mb-4">
-                  Supercharge your content generation process.
+                  Supercharge your Site Making process.
                 </h2>
                 <p class="w-2/3 mx-auto text-base text-default-200 font-medium">
-                  Join us today and experience the power of AI-powered text
-                  creation for yourself!
+                  Experience ingenious website creation for yourself!
                 </p>
 
                 <div class="mt-8">
@@ -487,8 +484,8 @@ function Home() {
                     href="#"
                     class="inline-flex items-center justify-center gap-2 bg-primary text-white py-2 px-6 rounded-full hover:bg-primary-hover transition-all duration-300"
                   >
-                    Get start free
-                    <i data-lucide="move-right" class="h-5 w-5"></i>
+                    work With Me
+                    <TbSettingsStar size={20} />
                   </a>
                 </div>
               </div>
