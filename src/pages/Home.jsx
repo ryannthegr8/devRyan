@@ -1,5 +1,9 @@
 import React, { useEffect } from "react";
-import { TbArrowRightSquare, TbSettingsStar } from "react-icons/tb";
+import {
+  TbArrowRightSquare,
+  TbSettingsStar,
+  TbCircleChevronsUp,
+} from "react-icons/tb";
 import { FaLocationArrow } from "react-icons/fa";
 
 //Pages and images
@@ -15,6 +19,8 @@ import {
   imageK,
   imageI,
   imageJ,
+  imageR,
+  imageS,
 } from "../pages";
 
 import aos from "aos";
@@ -109,7 +115,7 @@ function Home() {
                             />
                             <img
                               class="aspect-1 object-cover rounded-xl h-full w-60"
-                              src={imageI}
+                              src={imageR}
                               alt=""
                             />
                             <img
@@ -124,7 +130,7 @@ function Home() {
                             />
                             <img
                               class="aspect-1 object-cover rounded-xl h-full w-60"
-                              src={imageE}
+                              src={imageS}
                               alt=""
                             />
                           </div>
@@ -140,7 +146,7 @@ function Home() {
                             />
                             <img
                               class="aspect-1 object-cover rounded-xl h-full w-60"
-                              src={imageI}
+                              src={imageR}
                               alt=""
                             />
                             <img
@@ -155,7 +161,7 @@ function Home() {
                             />
                             <img
                               class="aspect-1 object-cover rounded-xl h-full w-60"
-                              src={imageE}
+                              src={imageS}
                               alt=""
                             />
                           </div>
@@ -500,13 +506,12 @@ function Home() {
         {/* <!-- Footer section End --> */}
 
         {/* <!-- Back To Top Start --> */}
-        <button
-          id="back-to-top"
-          onclick="topFunction()"
+        <a
+          href="#"
           class="fixed text-xl rounded-full z-10 bottom-5 end-5 h-8 w-8 text-center bg-white backdrop-blur-3xl text-slate-950 flex justify-center items-center transition-all duration-500 hover:bg-primary hover:text-white hover:rounded-lg"
         >
-          <i data-lucide="chevron-up" class="h-4 w-4"></i>
-        </button>
+          <TbCircleChevronsUp />
+        </a>
         {/* <!-- Back To Top End --> */}
       </body>
       {/* End of New design */}

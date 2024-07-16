@@ -234,17 +234,6 @@ function About() {
               <div class="bg-default-950/40 rounded-xl backdrop-blur-3xl">
                 <div class="p-6">
                   <div class="flex items-center gap-4 mb-4">
-                    <div class="inline-flex items-center justify-center h-10 w-10 bg-sky-500/20 text-sky-500 rounded-lg">
-                      <FaGithub size={25} />
-                    </div>
-                    <h3 class="text-xl font-medium text-default-200">GitHub</h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="bg-default-950/40 rounded-xl backdrop-blur-3xl">
-                <div class="p-6">
-                  <div class="flex items-center gap-4 mb-4">
                     <div class="inline-flex items-center justify-center h-10 w-10 bg-indigo-500/20 text-indigo-500 rounded-lg">
                       <TbBrandReact size={25} />
                     </div>
@@ -314,7 +303,19 @@ function About() {
                     <div class="inline-flex items-center justify-center h-10 w-10 bg-sky-500/20 text-sky-500 rounded-lg">
                       <TbFileTypeCss size={25} />
                     </div>
-                    <h3 class="text-xl font-medium text-default-200">CSS</h3>
+                    <h3 class="text-xl font-medium text-default-200">
+                      CSS (Tailwind)
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-default-950/40 rounded-xl backdrop-blur-3xl">
+                <div class="p-6">
+                  <div class="flex items-center gap-4 mb-4">
+                    <div class="inline-flex items-center justify-center h-10 w-10 bg-sky-500/20 text-sky-500 rounded-lg">
+                      <FaGithub size={25} />
+                    </div>
+                    <h3 class="text-xl font-medium text-default-200">GitHub</h3>
                   </div>
                 </div>
               </div>
@@ -341,11 +342,11 @@ function About() {
               <div class="bg-default-950/40 rounded-xl backdrop-blur-3xl">
                 <div class="p-6">
                   <div class="flex items-center gap-4 mb-4">
-                    <div class="inline-flex items-center justify-center h-10 w-10 bg-default-500/20 text-default-500 rounded-lg">
+                    <div class="inline-flex items-center justify-center h-10 w-10 bg-yellow-500/20 text-yellow-500 rounded-lg">
                       <TbBrandFirebase size={25} />
                     </div>
                     <h3 class="text-xl font-medium text-default-200">
-                      Social Media
+                      Firebase
                     </h3>
                   </div>
                 </div>

@@ -2,7 +2,6 @@ import React from "react";
 
 import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import "./style/style.css";
-import "./style/icons.css";
 
 // Scripts
 import "./assets/js/preline";
