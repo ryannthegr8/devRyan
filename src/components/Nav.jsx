@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Portfolio from "../pages/Portfolio";
 
 import { TbMenu2 } from "react-icons/tb";
 import { logo } from "../pages";
@@ -41,28 +42,28 @@ function Nav() {
 
           {/* <!-- About Page Link --> */}
           <li class="nav-item">
-            <a class="nav-link" href="/#/portfolio">
+            <a class="nav-link" href="/portfolio">
               Portfolio
             </a>
           </li>
 
           {/* <!-- Portfolio Page Link --> */}
           <li class="nav-item">
-            <a class="nav-link" href="/#/about">
+            <a class="nav-link" href="/about">
               About
             </a>
           </li>
 
           {/* <!-- Features Page Link --> */}
           <li class="nav-item">
-            <a class="nav-link" href="/#/services">
+            <a class="nav-link" href="/services">
               Services
             </a>
           </li>
 
           {/* <!-- Price Page Link --> */}
           <li class="nav-item">
-            <a class="nav-link" href="/#/contact">
+            <a class="nav-link" href="/contact">
               Contact
             </a>
           </li>
