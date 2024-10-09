@@ -270,7 +270,7 @@ function Home() {
                     class="inline-flex gap-2 items-center relative text-primary group mt-5"
                   >
                     <span class="absolute h-px w-7/12 group-hover:w-full transition-all duration-500 rounded bg-primary/80 -bottom-0"></span>
-                    Lead more <TbArrowRightSquare size={20} />
+                    Learn More <TbArrowRightSquare size={20} />
                   </a>
                 </div>
               </div>
@@ -296,7 +296,7 @@ function Home() {
                     class="inline-flex gap-2 items-center relative text-primary group mt-5"
                   >
                     <span class="absolute h-px w-7/12 group-hover:w-full transition-all duration-500 rounded bg-primary/80 -bottom-0"></span>
-                    Lead more
+                    Learn More
                     <TbArrowRightSquare size={20} />
                   </a>
                 </div>
@@ -323,7 +323,7 @@ function Home() {
                     class="inline-flex gap-2 items-center relative text-primary group mt-5"
                   >
                     <span class="absolute h-px w-7/12 group-hover:w-full transition-all duration-500 rounded bg-primary/80 -bottom-0"></span>
-                    Lead more <TbArrowRightSquare size={20} />
+                    Learn More <TbArrowRightSquare size={20} />
                   </a>
                 </div>
               </div>
