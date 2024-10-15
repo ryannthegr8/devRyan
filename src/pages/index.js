@@ -25,6 +25,9 @@ import imageQ from "../assets/images/ai/imgQ.jpg";
 import imageR from "../assets/images/ai/imgR.jpeg";
 import imageS from "../assets/images/ai/imgS.png";
 import linker from "../assets/images/portfolio/linker.png";
+import sphere from "../assets/images/portfolio/sphere.png";
+import key from "../assets/images/portfolio/key.png";
+import crescent from "../assets/images/portfolio/crescent.png";
 import logo from "../assets/images/ryanLogo.png";
 
 export { Home, About, Contact, Services, Portfolio };
@@ -50,5 +53,8 @@ export {
   imageR,
   imageS,
   linker,
+  sphere,
+  key,
+  crescent,
   logo,
 };

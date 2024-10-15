@@ -6,26 +6,7 @@ import Me from "../assets/me.jpeg";
 import { Nav, Footer } from "../components";
 
 //Pages and images
-import {
-  imageA,
-  imageB,
-  imageC,
-  imageD,
-  imageE,
-  imageF,
-  imageG,
-  imageH,
-  imageK,
-  imageI,
-  imageJ,
-  imageL,
-  imageM,
-  imageN,
-  imageO,
-  imageP,
-  imageQ,
-  linker,
-} from "../pages";
+import { linker, sphere, key, crescent } from "../pages";
 
 import aos from "aos";
 import "aos/dist/aos.css";
@@ -95,10 +76,142 @@ function Portfolio() {
         <section id="categories" class="py-24">
           <div class="container relative">
             <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
+              {/* Project */}
+              <div class="group relative overflow-hidden backdrop-blur-3xl bg-default-950/40 rounded-lg duration-500 ease-in-out">
+                <div class="p-3">
+                  <div class="relative">
+                    <img src={sphere} alt="" class="rounded-md" />
+
+                    <div class="absolute top-1/2 -trandefault-y-1/2 start-0 end-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
+                      <a
+                        target="blank"
+                        href="https://space-galaxy-r.vercel.app/"
+                        class="py-1.5 px-6 inline-flex items-center gap-2 font-semibold tracking-wide align-middle duration-500 text-base text-center border border-primary bg-primary text-white rounded-full hover:bg-primary-hover hover:border-primary-hover"
+                      >
+                        Live Preview <FaLocationArrow />
+                      </a>
+                    </div>
+
+                    <div class="absolute top-0 start-0 p-2 transition-all duration-700">
+                      <div class="inline-flex justify-center w-full">
+                        <div class="bg-gradient-to-r from-rose-500 to-blue-600 py-1 px-2.5 rounded-full">
+                          <p
+                            id="auction-item-1"
+                            class="flex flex-col text-white font-bold text-sm"
+                          ></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="pt-3 relative">
+                    <div class="flex items-center justify-between mb-3">
+                      <div class="flex items-center gap-2">
+                        <span>
+                          <a
+                            href="https://space-galaxy-r.vercel.app/"
+                            class="text-lg font-semibold text-default-100 hover:text-primary"
+                          >
+                            Purple Sphere.
+                          </a>
+                          <span class="text-xs text-default-100 block">
+                            Purple sphere in space.
+                          </span>
+                        </span>
+                      </div>
+                      <a
+                        href="#"
+                        class="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-center text-lg text-default-100 hover:text-red-600 focus:text-red-600"
+                      >
+                        <i class="mdi mdi-heart"></i>
+                      </a>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                      <div>
+                        <span class="block font-semibold text-default-100">
+                          Tech Used
+                        </span>
+                        <span class="block font-semibold text-primary">
+                          Three.JS, React.JS, Node
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Project end */}
+              {/* Project */}
+              <div class="group relative overflow-hidden backdrop-blur-3xl bg-default-950/40 rounded-lg duration-500 ease-in-out">
+                <div class="p-3">
+                  <div class="relative">
+                    <img src={key} alt="" class="rounded-md" />
+
+                    <div class="absolute top-1/2 -trandefault-y-1/2 start-0 end-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
+                      <a
+                        target="blank"
+                        href="https://holy-key.vercel.app/"
+                        class="py-1.5 px-6 inline-flex items-center gap-2 font-semibold tracking-wide align-middle duration-500 text-base text-center border border-primary bg-primary text-white rounded-full hover:bg-primary-hover hover:border-primary-hover"
+                      >
+                        Live Preview <FaLocationArrow />
+                      </a>
+                    </div>
+
+                    <div class="absolute top-0 start-0 p-2 transition-all duration-700">
+                      <div class="inline-flex justify-center w-full">
+                        <div class="bg-gradient-to-r from-rose-500 to-blue-600 py-1 px-2.5 rounded-full">
+                          <p
+                            id="auction-item-1"
+                            class="flex flex-col text-white font-bold text-sm"
+                          ></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="pt-3 relative">
+                    <div class="flex items-center justify-between mb-3">
+                      <div class="flex items-center gap-2">
+                        <span>
+                          <a
+                            href="https://holy-key.vercel.app/"
+                            class="text-lg font-semibold text-default-100 hover:text-primary"
+                          >
+                            3D Waterfall.
+                          </a>
+                          <span class="text-xs text-default-100 block">
+                            Spinning 3D waterfall.
+                          </span>
+                        </span>
+                      </div>
+                      <a
+                        href="#"
+                        class="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-center text-lg text-default-100 hover:text-red-600 focus:text-red-600"
+                      >
+                        <i class="mdi mdi-heart"></i>
+                      </a>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                      <div>
+                        <span class="block font-semibold text-default-100">
+                          Tech Used
+                        </span>
+                        <span class="block font-semibold text-primary">
+                          Three.js, Node, React.js
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Project end */}
+
+              {/* Project */}
               <div
                 class="group relative overflow-hidden backdrop-blur-3xl bg-default-950/40 rounded-lg duration-500 ease-in-out"
                 data-aos="zoom-in"
-                data-aos-duration="800"
+                data-aos-duration="200"
               >
                 <div class="p-3">
                   <div class="relative">
@@ -137,7 +250,7 @@ function Portfolio() {
                             Linker
                           </a>
                           <span class="text-xs text-default-100 block">
-                            Has links to all your socials
+                            Has links to all your socials, similar to link tree.
                           </span>
                         </span>
                       </div>
@@ -162,6 +275,76 @@ function Portfolio() {
                   </div>
                 </div>
               </div>
+              {/* Project end */}
+              {/* Project */}
+              <div
+                class="group relative overflow-hidden backdrop-blur-3xl bg-default-950/40 rounded-lg duration-500 ease-in-out"
+                data-aos="zoom-in"
+                data-aos-duration="200"
+              >
+                <div class="p-3">
+                  <div class="relative">
+                    <img src={crescent} alt="" class="rounded-md" />
+
+                    <div class="absolute top-1/2 -trandefault-y-1/2 start-0 end-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
+                      <a
+                        target="blank"
+                        href=" "
+                        class="py-1.5 px-6 inline-flex items-center gap-2 font-semibold tracking-wide align-middle duration-500 text-base text-center border border-primary bg-primary text-white rounded-full hover:bg-primary-hover hover:border-primary-hover"
+                      >
+                        Live Preview <FaLocationArrow />
+                      </a>
+                    </div>
+
+                    <div class="absolute top-0 start-0 p-2 transition-all duration-700">
+                      <div class="inline-flex justify-center w-full">
+                        <div class="bg-gradient-to-r from-rose-500 to-blue-600 py-1 px-2.5 rounded-full">
+                          <p
+                            id="auction-item-1"
+                            class="flex flex-col text-white font-bold text-sm"
+                          ></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="pt-3 relative">
+                    <div class="flex items-center justify-between mb-3">
+                      <div class="flex items-center gap-2">
+                        <span>
+                          <a
+                            href=" "
+                            class="text-lg font-semibold text-default-100 hover:text-primary"
+                          >
+                            Crescent Creatives
+                          </a>
+                          <span class="text-xs text-default-100 block">
+                            All About Interior and Exterior Design
+                          </span>
+                        </span>
+                      </div>
+                      <a
+                        href="#"
+                        class="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-center text-lg text-default-100 hover:text-red-600 focus:text-red-600"
+                      >
+                        <i class="mdi mdi-heart"></i>
+                      </a>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                      <div>
+                        <span class="block font-semibold text-default-100">
+                          Tech Used
+                        </span>
+                        <span class="block font-semibold text-primary">
+                          Laravel, PHP, js, Bootstrap
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Project end */}
             </div>
           </div>
         </section>
