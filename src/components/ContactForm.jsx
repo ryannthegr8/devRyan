@@ -9,7 +9,7 @@ function ContactForm() {
     <>
       <section id="home" class="relative pt-[74px] overflow-hidden">
         <div class="container-fluid lg:px-10 md:px-3 relative overflow-hidden">
-          <div class="lg:py-24 py-[74px] md:rounded-lg shadow bg-default-950/40 backdrop-blur-3xl">
+          <div class="lg:py-2 py-[2px] md:rounded-lg shadow bg-default-950/40 backdrop-blur-3xl">
             <div class="container relative">
               <div class="absolute top-0">
                 <i

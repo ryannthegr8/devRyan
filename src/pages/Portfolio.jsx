@@ -64,6 +64,8 @@ function Portfolio() {
                   </h1>
                   <p class="text-base text-default-300 font-medium lg:max-w-md mx-auto">
                     See what projects I have been working on.
+                    <br />
+                    ↓↓
                   </p>
                 </div>
               </div>
@@ -73,11 +75,15 @@ function Portfolio() {
         </section>
         {/* <!-- Hero end  --> */}
 
-        <section id="categories" class="py-24">
+        <section id="categories" class="py-2">
           <div class="container relative">
             <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
               {/* Project */}
-              <div class="group relative overflow-hidden backdrop-blur-3xl bg-default-950/40 rounded-lg duration-500 ease-in-out">
+              <div
+                class="group relative overflow-hidden backdrop-blur-3xl bg-default-950/40 rounded-lg duration-500 ease-in-out"
+                data-aos="zoom-in"
+                data-aos-duration="500"
+              >
                 <div class="p-3">
                   <div class="relative">
                     <img src={sphere} alt="" class="rounded-md" />
@@ -142,7 +148,11 @@ function Portfolio() {
               </div>
               {/* Project end */}
               {/* Project */}
-              <div class="group relative overflow-hidden backdrop-blur-3xl bg-default-950/40 rounded-lg duration-500 ease-in-out">
+              <div
+                class="group relative overflow-hidden backdrop-blur-3xl bg-default-950/40 rounded-lg duration-500 ease-in-out"
+                data-aos="zoom-in"
+                data-aos-duration="500"
+              >
                 <div class="p-3">
                   <div class="relative">
                     <img src={key} alt="" class="rounded-md" />
@@ -211,7 +221,7 @@ function Portfolio() {
               <div
                 class="group relative overflow-hidden backdrop-blur-3xl bg-default-950/40 rounded-lg duration-500 ease-in-out"
                 data-aos="zoom-in"
-                data-aos-duration="200"
+                data-aos-duration="500"
               >
                 <div class="p-3">
                   <div class="relative">

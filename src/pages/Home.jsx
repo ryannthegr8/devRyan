@@ -92,7 +92,7 @@ function Home() {
                       <br></br>
                       <div>
                         <a
-                          href="/#/contact"
+                          href="/contact"
                           class="inline-flex items-center justify-center gap-2 bg-primary text-white py-2 px-6 rounded-lg hover:bg-primary-hover transition-all duration-300 me-2 mt-2"
                         >
                           CREATE WITH ME

@@ -44,7 +44,7 @@ function Contact() {
         {/* <!-- Hero Section Start --> */}
         <section
           id="home"
-          class="relative overflow-hidden pt-40 pb-20"
+          class="relative overflow-hidden pt-40 pb-2"
           data-aos="zoom-out"
           data-aos-easing="ease"
           data-aos-duration="1000"
@@ -60,6 +60,8 @@ function Contact() {
                   </h1>
                   <p class="text-base text-default-300 font-medium lg:max-w-md mx-auto">
                     Get in Touch.
+                    <br />
+                    ↓↓
                   </p>
                 </div>
               </div>
