@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { FaLocationArrow } from "react-icons/fa";
+import { TbSettingsStar } from "react-icons/tb";
 
 import Me from "../assets/me.jpeg";
 //Components
@@ -59,7 +60,7 @@ function Portfolio() {
             <div class="text-center">
               <div class="flex justify-center mt-6">
                 <div class="max-w-2xl">
-                  <h1 class="text-5xl/tight text-default-100 font-medium mb-6">
+                  <h1 class="text-5xl/tight text-default-100 font-medium mb-3">
                     My Portfolio.
                   </h1>
                   <p class="text-base text-default-300 font-medium lg:max-w-md mx-auto">
@@ -75,7 +76,7 @@ function Portfolio() {
         </section>
         {/* <!-- Hero end  --> */}
 
-        <section id="categories" class="py-2">
+        <section id="categories" class="py-1">
           <div class="container relative">
             <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
               {/* Project */}
@@ -358,6 +359,30 @@ function Portfolio() {
             </div>
           </div>
         </section>
+
+        {/* <!-- Contact action Start --> */}
+        <section class="pb-24">
+          <div class="container">
+            <div class="flex items-end justify-between mb-1">
+              <div class="max-w-2xl mx-auto text-center">
+                <div class="mt-8">
+                  <p class=" mx-auto text-base text-default-200 font-medium mb-2  ">
+                    I prioritize functional good looking software
+                  </p>
+                  <a
+                    href="#"
+                    class="inline-flex items-center justify-center gap-2 bg-primary text-white py-2 px-6 rounded-full hover:bg-primary-hover transition-all duration-300"
+                  >
+                    work With Me
+                    <TbSettingsStar size={20} />
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* <!-- end flex --> */}
+          </div>
+        </section>
+        {/* <!--  Contact action end --> */}
 
         {/* <!-- Footer section start --> */}
         <Footer />

@@ -449,7 +449,7 @@ function Home() {
                       <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
                         <div class="max-w-sm text-center p-6">
                           <p class="text-base font-medium text-default-300">
-                            No One Cared Who I Was ‘Til I Put On The Mask.
+                            No One Cared Who I Was ‘Till I Put On The Mask.
                           </p>
                         </div>
                       </div>
@@ -473,7 +473,7 @@ function Home() {
           {/* <!-- end container --> */}
         </section>
 
-        {/* <!-- Content Section Start --> */}
+        {/* <!-- Contact action Start --> */}
         <section class="pb-24">
           <div class="container">
             <div class="flex items-end justify-between mb-10">
@@ -482,7 +482,7 @@ function Home() {
                   Supercharge your Site Making process.
                 </h2>
                 <p class="w-2/3 mx-auto text-base text-default-200 font-medium">
-                  Experience ingenious website creation for yourself!
+                  Experience ingenious software creation for yourself!
                 </p>
 
                 <div class="mt-8">
@@ -499,7 +499,7 @@ function Home() {
             {/* <!-- end flex --> */}
           </div>
         </section>
-        {/* <!-- Content Section end --> */}
+        {/* <!--  Contact action end --> */}
 
         {/* <!-- Footer section start --> */}
         <Footer />
