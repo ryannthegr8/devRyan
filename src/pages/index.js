@@ -1,6 +1,7 @@
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
+import Skills from "./Skills";
 import Services from "./Services";
 import Portfolio from "./Portfolio";
 
@@ -30,7 +31,7 @@ import key from "../assets/images/portfolio/key.png";
 import crescent from "../assets/images/portfolio/crescent.png";
 import logo from "../assets/images/ryanLogo.png";
 
-export { Home, About, Contact, Services, Portfolio };
+export { Home, About, Contact, Services, Portfolio, Skills };
 
 export {
   imageA,

@@ -40,28 +40,35 @@ function Nav() {
             </a>
           </li>
 
-          {/* <!-- About Page Link --> */}
+          {/* <!-- Portfolio Page Link --> */}
           <li class="nav-item">
             <a class="nav-link" href="/portfolio">
               Portfolio
             </a>
           </li>
 
-          {/* <!-- Portfolio Page Link --> */}
+          {/* <!-- About Page Link --> */}
           <li class="nav-item">
             <a class="nav-link" href="/about">
               About
             </a>
           </li>
 
-          {/* <!-- Features Page Link --> */}
+          {/* <!-- Skills Page Link --> */}
+          <li class="nav-item">
+            <a class="nav-link" href="/skills">
+              Skills
+            </a>
+          </li>
+
+          {/* <!-- Services Page Link --> */}
           <li class="nav-item">
             <a class="nav-link" href="/services">
               Services
             </a>
           </li>
 
-          {/* <!-- Price Page Link --> */}
+          {/* <!-- Contact Page Link --> */}
           <li class="nav-item">
             <a class="nav-link" href="/contact">
               Contact

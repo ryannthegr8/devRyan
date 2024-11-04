@@ -365,15 +365,6 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="absolute top-auto bottom-20 -start-20">
-                    <div class="inline-block">
-                      <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
-                        <div class="py-4 px-6">
-                          <h5>Highly Functional</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
               {/* <!-- end grid-col --> */}
@@ -451,15 +442,6 @@ function Home() {
                           <p class="text-base font-medium text-default-300">
                             No One Cared Who I Was ‘Till I Put On The Mask.
                           </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="absolute top-auto bottom-20 -end-20">
-                    <div class="inline-block">
-                      <div class="rounded-full border border-white/10 bg-default-950/60 backdrop-blur-lg">
-                        <div class="py-4 px-6">
-                          <h5>High Quality</h5>
                         </div>
                       </div>
                     </div>

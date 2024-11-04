@@ -7,7 +7,7 @@ import "./style/style.css";
 import "./assets/js/preline";
 
 //Pages
-import { About, Home, Portfolio, Services, Contact } from "./pages";
+import { About, Home, Portfolio, Services, Contact, Skills } from "./pages";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
             <Route index exact path="/" element={<Home />} />
             <Route index exact path="/portfolio" element={<Portfolio />} />
             <Route index exact path="/about" element={<About />} />
+            <Route index exact path="/skills" element={<Skills />} />
             <Route index exact path="/services" element={<Services />} />
             <Route index exact path="/contact" element={<Contact />} />
           </Routes>
