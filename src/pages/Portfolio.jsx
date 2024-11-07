@@ -58,7 +58,7 @@ function Portfolio() {
           <div class="absolute h-14 w-14 bg-primary/20 top-1/2 end-80 -z-1 rounded-full animate-ping"></div>
           <div class="container">
             <div class="text-center">
-              <div class="flex justify-center mt-6">
+              <div class="flex justify-center mt-2">
                 <div class="max-w-2xl">
                   <h1 class="text-5xl/tight text-default-100 font-medium mb-3">
                     My Portfolio.
@@ -78,6 +78,9 @@ function Portfolio() {
 
         <section id="categories" class="py-1">
           <div class="container relative">
+            <span class="py-1 px-3 rounded-md text-sm font-medium uppercase tracking-wider text-primary bg-primary/20">
+              websites
+            </span>
             <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
               {/* Project */}
               <div

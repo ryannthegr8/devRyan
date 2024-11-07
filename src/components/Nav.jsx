@@ -42,35 +42,35 @@ function Nav() {
 
           {/* <!-- Portfolio Page Link --> */}
           <li class="nav-item">
-            <a class="nav-link" href="/portfolio">
+            <a class="nav-link" href="/#/portfolio">
               Portfolio
             </a>
           </li>
 
           {/* <!-- About Page Link --> */}
           <li class="nav-item">
-            <a class="nav-link" href="/about">
+            <a class="nav-link" href="/#/about">
               About
             </a>
           </li>
 
           {/* <!-- Skills Page Link --> */}
           <li class="nav-item">
-            <a class="nav-link" href="/skills">
+            <a class="nav-link" href="/#/skills">
               Skills
             </a>
           </li>
 
           {/* <!-- Services Page Link --> */}
           <li class="nav-item">
-            <a class="nav-link" href="/services">
+            <a class="nav-link" href="/#/services">
               Services
             </a>
           </li>
 
           {/* <!-- Contact Page Link --> */}
           <li class="nav-item">
-            <a class="nav-link" href="/contact">
+            <a class="nav-link" href="/#/contact">
               Contact
             </a>
           </li>

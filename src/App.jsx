@@ -12,7 +12,7 @@ import { About, Home, Portfolio, Services, Contact, Skills } from "./pages";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <main>
           <Routes>
             <Route index exact path="/" element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
             <Route index exact path="/contact" element={<Contact />} />
           </Routes>
         </main>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
