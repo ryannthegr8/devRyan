@@ -29,6 +29,7 @@ import linker from "../assets/images/portfolio/linker.png";
 import sphere from "../assets/images/portfolio/sphere.png";
 import key from "../assets/images/portfolio/key.png";
 import crescent from "../assets/images/portfolio/crescent.png";
+import qrcode from "../assets/images/portfolio/qrcode.png";
 import logo from "../assets/images/ryanLogo.png";
 
 export { Home, About, Contact, Services, Portfolio, Skills };
@@ -58,4 +59,5 @@ export {
   key,
   crescent,
   logo,
+  qrcode,
 };

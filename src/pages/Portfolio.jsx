@@ -7,7 +7,7 @@ import Me from "../assets/me.jpeg";
 import { Nav, Footer } from "../components";
 
 //Pages and images
-import { linker, sphere, key, crescent } from "../pages";
+import { linker, sphere, key, crescent, qrcode } from "../pages";
 
 import aos from "aos";
 import "aos/dist/aos.css";
@@ -90,6 +90,77 @@ function Portfolio() {
               >
                 <div class="p-3">
                   <div class="relative">
+                    <img src={qrcode} alt="" class="rounded-md" />
+
+                    <div class="absolute top-1/2 -trandefault-y-1/2 start-0 end-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
+                      <a
+                        target="blank"
+                        href="https://freeqrcode.onrender.com/"
+                        class="py-1.5 px-6 inline-flex items-center gap-2 font-semibold tracking-wide align-middle duration-500 text-base text-center border border-primary bg-primary text-white rounded-full hover:bg-primary-hover hover:border-primary-hover"
+                      >
+                        Live Preview <FaLocationArrow />
+                      </a>
+                    </div>
+
+                    <div class="absolute top-0 start-0 p-2 transition-all duration-700">
+                      <div class="inline-flex justify-center w-full">
+                        <div class="bg-gradient-to-r from-rose-500 to-blue-600 py-1 px-2.5 rounded-full">
+                          <p
+                            id="auction-item-1"
+                            class="flex flex-col text-white font-bold text-sm"
+                          ></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="pt-3 relative">
+                    <div class="flex items-center justify-between mb-3">
+                      <div class="flex items-center gap-2">
+                        <span>
+                          <a
+                            href="https://freeqrcode.onrender.com/"
+                            class="text-lg font-semibold text-default-100 hover:text-primary"
+                          >
+                            QR Code Generator.
+                          </a>
+                          <span class="text-xs text-default-100 block">
+                            You Login/Signup, input a text then it generates a
+                            qr code for the text.
+                          </span>
+                        </span>
+                      </div>
+                      <a
+                        href="#"
+                        class="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-center text-lg text-default-100 hover:text-red-600 focus:text-red-600"
+                      >
+                        <i class="mdi mdi-heart"></i>
+                      </a>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                      <div>
+                        <span class="block font-semibold text-default-100">
+                          Tech Used
+                        </span>
+                        <span class="block font-semibold text-primary">
+                          Python, Flask
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Project end */}
+
+              {/* Project */}
+              <div
+                class="group relative overflow-hidden backdrop-blur-3xl bg-default-950/40 rounded-lg duration-500 ease-in-out"
+                data-aos="zoom-in"
+                data-aos-duration="500"
+              >
+                <div class="p-3">
+                  <div class="relative">
                     <img src={sphere} alt="" class="rounded-md" />
 
                     <div class="absolute top-1/2 -trandefault-y-1/2 start-0 end-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
@@ -151,6 +222,7 @@ function Portfolio() {
                 </div>
               </div>
               {/* Project end */}
+
               {/* Project */}
               <div
                 class="group relative overflow-hidden backdrop-blur-3xl bg-default-950/40 rounded-lg duration-500 ease-in-out"
